@@ -1,0 +1,69 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header.header {
+  width: 100%;
+  height: 80px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 90%);
+}
+header.header h1 {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  width: 100%;
+  height: 100vh;
+}
+main section.mainsection {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.sectionheader {
+  width: 100%;
+  height: 80px;
+  background-color: hsl(181, 100%, 80%);
+}
+.sectionheader h3 {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.mainchat {
+  width: 100%;
+  height: 87%;
+  background-color: hsl(0, 0%, 80%);
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  gap: 10px;
+}
+.typechat {
+  width: 100%;
+}
+footer.footer {
+  width: 100%;
+  height: 80px;
+  justify-content: flex-end;
+  background-color: hsl(180, 100%, 90%);
+}
+footer.footer aside.icon {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(0, 0%, 70%);
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer.footer aside.icon i {
+  font-size: 20px;
+}
